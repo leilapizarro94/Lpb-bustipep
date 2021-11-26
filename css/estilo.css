@@ -1,0 +1,135 @@
+body{
+	font-family: 'Roboto Slab';
+}
+
+.navbar-brand{
+   font-family: 'Kaushan Script';
+   color: #fed136 !important;
+}
+
+.nav-link{
+	font-family: 'Montserrat';
+   color: #293F80 !important;
+   font-size: 90%;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+.nav-link:hover{
+	color: #fed136 !important;
+}
+	
+#mainNaw{
+	padding-top: 25px;
+	padding-top: 25px;
+}
+@media(min-width: 992px){
+	#mainNaw{
+	padding-top: 25px;
+	padding-top: 25px;
+	-webkit-transition: padding-top 0.3s,padding-bottom 0.3s;
+	transition: padding-top 0.3s, padding-bottom 0.3s;
+	border:none;
+	background-color: transparent;
+   }
+   #mainNav .navbar-brand{
+   	font-size: 1.75em;
+   	-webkit-transition: all 0.3s;
+   	transition: all 0.3s;
+   }
+   #mainNav .navbar-nav .nav-item .nav-link{
+   	padding: 1.1em 1em !important;
+   }
+   #mainNav .navbar-shrink{
+   	padding-top: 0;
+   	padding-bottom: 0;
+   	background-color: #212529;
+   }
+   #mainNav.navbar-shrink .navbar-brand{
+   	font-size: 1.25em;
+   	padding: 12px 0;
+   }
+
+}
+.intro-text{
+	padding-bottom: 60%;
+}
+.intro-texto1{
+	font-size: 70px;
+	font-style: italic;
+	line-height: 80px;
+    margin-bottom: 50px;
+    font-family: 'Droid Serif';
+}
+.intro-texto2{
+	font-size: 75px;
+    font-weight: 700;
+	line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+}
+.btn-primary{
+	background-color: #fed136;
+	border-color: #fed136;
+	font-size: 18px;
+	padding: 20px 40px;
+	font-family: 'Montserrat';
+}
+.btn-primary:hover{
+	background-color: #fec810 !important;
+	border-color: #fec810;	
+}
+@media (min-width: 992px) { 
+	.intro-texto1{
+	font-size: 20px;
+    margin-bottom: 25px;
+}
+.intro-texto2{
+	font-size: 30px;
+    margin-bottom: 0px;
+}
+.btn-primary{
+	font-size: 13px;
+	padding: 10px 20px;
+}
+}
+
+.page-section{
+	padding: 100px 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+.section-heading{
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.section-subheading{
+	font-size: 16px;
+	font-weight: 400;
+	font-style:italic;
+	margin-bottom: 75px;
+}
+.color-text{
+	color:#fed136 !important;
+}
+
+
+
+.bd-page{
+	background-color: #EAEAEA;
+}
+
+.portafolio-item{
+	margin: 0 0 30px 0;
+}
+
+.portafolio-caption{
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+	background-color: #ffffff;
+}
